@@ -36,13 +36,13 @@ namespace IterationStatements
 
         //}
         //Write a method to check whether a given number is even or odd
-        //public static string numberType (int a)
+        //public static string NumberType (int a)
         //{
         //    var number = (a%2 == 0) ? "Even" : "Odd";
         //    return number;
         //}
         //Write a method to check whether a given number is positive or negative
-        //public static string positive(int x) 
+        //public static string Positive(int x) 
         //{
         //    var numberKind = (x >= 1) ? "Positive" : "Negative";
 
@@ -52,7 +52,7 @@ namespace IterationStatements
         //Hint: Use Parse or the safer TryParse() for an extra challenge
         //Parse()
         //TryParse()
-        //public static string eligibleVote()
+        //public static string EligibleVote()
         //{
         //    Console.WriteLine("How old are you?");
         //    var answer = int.Parse(Console.ReadLine());
@@ -62,7 +62,7 @@ namespace IterationStatements
         //}
         //Heatin Up Section:
         //Write a method to check if an integer(from the user) is in the range -10 to 10
-        //public static string range()
+        //public static string Range()
         //{
         //    Console.WriteLine(" Please write a number.");
         //    var number = int.Parse(Console.ReadLine());
@@ -72,7 +72,7 @@ namespace IterationStatements
         //}
         //Write a method to display the multiplication table(from 1 to 12) of a given integer
 
-        public static void multiply()
+        public static void Multiply()
         {
             int number, multiplier;
             Console.WriteLine("Please chose a number");
@@ -97,10 +97,10 @@ namespace IterationStatements
             //PrintThousand();
             //Three();
             //Console.WriteLine(Same(1, 2));
-            //Console.WriteLine(numberType(6));
-            //Console.WriteLine(positive(-10));
-            //Console.WriteLine(range());
-            multiply();
+            //Console.WriteLine(NumberType(6));
+            //Console.WriteLine(Positive(-10));
+            //Console.WriteLine(Range());
+            Multiply();
         }
     }
 }
